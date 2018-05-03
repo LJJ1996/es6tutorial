@@ -314,7 +314,7 @@ ES6 为正则表达式新增了`flags`属性，会返回正则表达式的修饰
 // true
 ```
 
-这种解决方案毕竟不太符合直觉，ES2018 [引入](https://github.com/tc39/proposal-regexp-dotall-flag)`s`修饰符，使得`.`可以匹配任意单个字符。
+这种解决方案毕竟不太符合直觉，ES2018 [引入](https://github.com/tc39/proposal-regexp-dotall-flag)`/s`修饰符，使得`.`可以匹配任意单个字符。
 
 ```javascript
 /foo.bar/s.test('foo\nbar') // true
